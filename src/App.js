@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
-function App() {
+export default function App() {
   return (
     <div>
     
@@ -15,9 +15,8 @@ function App() {
         <Link to="/about-me">About Me</Link> | {" "}
         <Link to="/contact">Contact</Link>
       </nav>
-      <h1>Website Goes Here</h1>
+      <Outlet />
     </div>
   );
 }
 
-export default App;
