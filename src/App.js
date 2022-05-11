@@ -1,20 +1,10 @@
-import { Link, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
+import { NavBar } from "./components/NavBar"
 
 export default function App() {
   return (
     <div>
-    
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-      >
-        <Link to="/home">Home</Link> | {" "}
-        <Link to="/portfolio">Portfolio</Link> | {" "}
-        <Link to="/about-me">About Me</Link> | {" "}
-        <Link to="/contact">Contact</Link>
-      </nav>
+      <NavBar />
       <Outlet />
     </div>
   );
