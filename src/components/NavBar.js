@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Nav, Navbar, Image, Container} from "react-bootstrap";
 
 
-export function NavComponent() {
+export function NavBar() {
   return (
     <Navbar bg="light" expand="sm">
       <Container fluid>
