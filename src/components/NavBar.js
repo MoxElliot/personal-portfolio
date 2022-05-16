@@ -7,7 +7,7 @@ export function NavBar() {
     <Navbar bg="light" expand="sm">
       <Container fluid>
         <Navbar.Brand as={Link} to="/home" className="ms-2 active">
-          <Image height={"70rem"} src={require("./golden-ratio.png")} alt="Home Icon" />
+          <Image height={"70rem"} src={require("../images/golden-ratio.png")} alt="Home Icon" />
         </Navbar.Brand>  {/* as={Link} is a react-bootstrap render prop which specifies which compoent should be rendered instead of the default (Nav.LinK) */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
