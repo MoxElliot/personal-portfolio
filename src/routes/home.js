@@ -9,6 +9,7 @@ export default function Home() {
                         <h1>
                             Elliot Erickson
                         </h1>
+                        <Container>
                         <h3>
                         <b>Front-End Web Developer</b><br />
                         Arma virumque canō, 
@@ -17,17 +18,24 @@ export default function Home() {
                         vēnit iītora, multum ille et 
                         terrīs iactātus et altō 
                         </h3>
+                        </Container>
                     </Col>
                     <Col className="border border-primary m-1">
-                    <Image height={"300rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />Two
+                    <Image height={"300rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />
                     </Col>
                 </Row>
                 <Row className="border border-dark">  
                     <Col className="border border-primary m-1">
-                        Two
+                        <Image height={"300rem"} src={require("../images/portfolio-preview.PNG")} alt="Portfolio Preview" />
                     </Col>
+                    <Col className="border border-primary m-1 d-none d-sm-block">
+                        <Image height={"300rem"} src={require("../images/profile-pic.png")} alt="Profile Picture" />
+                    </Col>
+                    
+                </Row>
+                <Row className="border border-dark">  
                     <Col className="border border-primary m-1">
-                        Three
+                        Social Links
                     </Col>
                 </Row>
             </Container>
