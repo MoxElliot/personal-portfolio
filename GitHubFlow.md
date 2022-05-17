@@ -5,7 +5,7 @@ Two Long Branches:
 
 Feature Branch Workflow
 1.	Create branch for new feature: git checkout –b feature_name
-    a.	feature_name should be a descriptive title (i.e. navigation-bar-component, portfolio-route, portfolio-preview-component)
+    a.	feature_name should be a descriptive title (i.e. navigation_bar_component, portfolio_layout, home_port-prev_component)
 
 2.	Write code, adding/committing as usual to local
     a.	Final Feature Ready Commit: git commit –m “Feature Ready”
