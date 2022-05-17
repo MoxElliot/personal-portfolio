@@ -26,16 +26,16 @@ export default function Home() {
                 </Row>
                 <Row className="border border-dark">  
                     <Col className="border border-primary m-1">
-                        <Image height={"300rem"} src={require("../images/portfolio-preview.PNG")} alt="Portfolio Preview" />
+                        <Image src={require("../images/portfolio-preview.PNG")} className="img-fluid" alt="Portfolio Preview" />
                     </Col>
                     <Col className="border border-primary m-1 d-none d-sm-block">
-                        <Image height={"300rem"} src={require("../images/profile-pic.png")} alt="Profile Picture" />
+                        <Image height={"600rem"} src={require("../images/profile-pic.png")} className="img-fluid" alt="Profile Picture" />
                     </Col>
                     
                 </Row>
-                <Row className="border border-dark">  
-                    <Col className="border border-primary m-1">
-                        Social Links
+                <Row className="border border-dark flex-row-reverse">  
+                    <Col className="border border-primary d-flex justify-content-end">
+                    <Image src={require("../images/social-links.PNG")} className="img-fluid" alt="Portfolio Preview" />
                     </Col>
                 </Row>
             </Container>
@@ -43,14 +43,3 @@ export default function Home() {
     );
 }
 
-<Container>
-  <Row>
-    <Col>1 of 2</Col>
-    <Col>2 of 2</Col>
-  </Row>
-  <Row>
-    <Col>1 of 3</Col>
-    <Col>2 of 3</Col>
-    <Col>3 of 3</Col>
-  </Row>
-</Container>
