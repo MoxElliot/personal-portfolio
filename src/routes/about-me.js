@@ -1,6 +1,9 @@
 import { Row, Col, Image, Container, Tabs, Tab} from "react-bootstrap";
 
 export default function AboutMe() {
+
+   
+
     return (
         <main style={{ padding: "1rem 0"}} >
            <Container>
@@ -20,12 +23,11 @@ export default function AboutMe() {
                         
                     </Col>
                     <Col md={8}>
-                        
-                        <Image src={require("../images/about-me-profile.PNG")} className="img-fluid" alt="Portfolio Preview" />
+                        <Image src={require("../images/about-me-profile.PNG")} className="img-fluid d-none d-sm-block" alt="Portfolio Preview" />
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6} className="mt-5">
+                    <Col className="mt-5" md={6}>
                         <h2 className="text-center">Hobbies and Interests</h2>
                         <Tabs
                             defaultActiveKey="hobby1"
@@ -48,8 +50,11 @@ export default function AboutMe() {
                                 Haec ubi dicta, cavum conversa cuspide montem impulit in latus: ac venti, velut agmine facto, qua data porta, ruunt et terras turbine perflant. Incubuere mari, totumque a sedibus imisna Eurusque Notusque ruunt creberque procellis Africus, et vastos volvunt ad litora fluctus.
                                 </p>
                             </Tab>
-
                         </Tabs>
+                        
+                    </Col>
+                    <Col>
+                        Image Carousel
                     </Col>
                 </Row>
            </Container>
