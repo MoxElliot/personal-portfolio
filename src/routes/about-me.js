@@ -1,8 +1,9 @@
-import { Row, Col, Image, Container, Tabs, Tab} from "react-bootstrap";
+import { Row, Col, Image, Container, Tabs, Tab, Carousel} from "react-bootstrap";
+import { ImageCarousel } from "../components/ImageCarousel"
 
 export default function AboutMe() {
 
-   
+ 
 
     return (
         <main style={{ padding: "1rem 0"}} >
@@ -54,7 +55,7 @@ export default function AboutMe() {
                         
                     </Col>
                     <Col>
-                        Image Carousel
+                      <ImageCarousel />
                     </Col>
                 </Row>
            </Container>
