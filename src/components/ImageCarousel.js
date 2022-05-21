@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 {/* Used Controlled Carousel guide from https://react-bootstrap.github.io/components/carousel/ */}
+{/* Read https://w3collective.com/tab-component-react/ for tab active index*/}
 
 export const ImageCarousel = () => {
     const [index, setIndex] = useState(0)
