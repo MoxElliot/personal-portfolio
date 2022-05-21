@@ -1,21 +1,15 @@
 
-import { Carousel } from 'react-bootstrap';
-
-import { useState } from 'react';
+import { Carousel, Col } from 'react-bootstrap';
 
 
 {/* Used Controlled Carousel guide from https://react-bootstrap.github.io/components/carousel/ */}
 {/* Read https://w3collective.com/tab-component-react/ for tab active index*/}
 
 export const ImageCarousel = () => {
-    const [index, setIndex] = useState(0)
-
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
-   
+  
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" interval={null}> 
+        <Col>
+        <Carousel variant="dark" interval={null}> 
             <Carousel.Item>
                 <img
                 className="d-block w-100"
@@ -47,7 +41,7 @@ export const ImageCarousel = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-
+        </Col>
     )
 }
 
