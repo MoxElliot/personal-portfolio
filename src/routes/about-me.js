@@ -1,10 +1,8 @@
-import { Row, Col, Image, Container, Tabs, Tab, Carousel} from "react-bootstrap";
+import { Row, Col, Image, Container} from "react-bootstrap";
 import { ImageCarousel } from "../components/ImageCarousel"
 import { HobbyTabs } from "../components/HobbyTabs"
 
 export default function AboutMe() {
-
- 
 
     return (
         <main style={{ padding: "1rem 0"}} >
