@@ -1,11 +1,10 @@
 
 import { Col, Tabs, Tab } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useContext } from "react";
+import { Context } from "../routes/about-me"
+
 export const HobbyTabs = () => {
-  
-    const [key, setKey] = useState(1)
-    
-    useEffect(() => console.log(key))
+    const {key, updateKey} = useContext(Context)
 
     return (
         
@@ -16,7 +15,7 @@ export const HobbyTabs = () => {
                 activeKey={key}
                 transition={false}
                 onSelect={(k) => 
-                    setKey(k)
+                    updateKey(k)
                 }
                 id="hobby-tabs-no-animation"
                 className="mb-3"

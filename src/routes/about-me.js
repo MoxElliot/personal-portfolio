@@ -1,8 +1,15 @@
 import { Row, Col, Image, Container} from "react-bootstrap";
 import { ImageCarousel } from "../components/ImageCarousel"
 import { HobbyTabs } from "../components/HobbyTabs"
+import { useState, useEffect, createContext } from "react";
+
+export const Context = createContext()
 
 export default function AboutMe() {
+
+    const [key, setKey] = useState(1)
+    
+    useEffect(() => console.log(key))
 
     return (
         <main style={{ padding: "1rem 0"}} >
@@ -27,8 +34,12 @@ export default function AboutMe() {
                     </Col>
                 </Row>
                 <Row>
-                    <HobbyTabs />
-                    <ImageCarousel />
+                    <Context.Provider value={{
+                        key, 
+                        updateKey: key => setKey(key)}}>
+                        <HobbyTabs />
+                        <ImageCarousel />
+                    </Context.Provider>
                 </Row>
            </Container>
         </main>
