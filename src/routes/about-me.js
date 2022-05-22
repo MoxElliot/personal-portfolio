@@ -7,7 +7,7 @@ export const Context = createContext()
 
 export default function AboutMe() {
 
-    const [key, setKey] = useState(1)
+    const [key, setKey] = useState(0)
     
     useEffect(() => console.log(key))
 

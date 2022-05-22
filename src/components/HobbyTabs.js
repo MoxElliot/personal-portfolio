@@ -21,7 +21,7 @@ export const HobbyTabs = () => {
                 className="mb-3"
             >
                 <Tab 
-                    eventKey={1} 
+                    eventKey={0} 
                     title="Hobby One"
                     >
                     <p className="lead">
@@ -29,7 +29,7 @@ export const HobbyTabs = () => {
                     </p>
                 </Tab>
                 <Tab 
-                    eventKey={2}
+                    eventKey={1}
                     title="Hobby Two"
                     >
                     <p className="lead">
@@ -37,7 +37,7 @@ export const HobbyTabs = () => {
                     </p>
                 </Tab>
                 <Tab 
-                    eventKey={3}
+                    eventKey={2}
                     title="Hobby Three"
                     >
                     <p className="lead">

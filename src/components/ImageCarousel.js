@@ -1,16 +1,20 @@
 
 import { Carousel, Col } from 'react-bootstrap';
+import { Context } from "../routes/about-me"
+import {  useContext } from "react";
 
-
-{/* Used Controlled Carousel guide from https://react-bootstrap.github.io/components/carousel/ */}
-{/* Read https://w3collective.com/tab-component-react/ for tab active index*/}
+{/* Read to start tomorrow https://stackoverflow.com/questions/64586591/add-active-class-to-li-items-in-react*/}
 
 export const ImageCarousel = () => {
-  
+
+  const { key } = useContext(Context);
+
     return (
         <Col>
-        <Carousel variant="dark" interval={null}> 
-            <Carousel.Item>
+        <h2>the key is {key}</h2>
+        <Carousel variant="dark" interval={null} activeIndex={key} controls={false} indicators={false}> 
+
+            <Carousel.Item index={0}>
                 <img
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
@@ -20,7 +24,7 @@ export const ImageCarousel = () => {
                 <h3 className="text-success">First slide label</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item index={1}>
                 <img
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
@@ -30,7 +34,7 @@ export const ImageCarousel = () => {
                 <h3 className="text-success">Second slide label</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item index={2}>
                 <img
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
