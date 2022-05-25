@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bbba82f.css",
+    "main.js": "/static/js/main.58a07181.js",
+    "static/media/profile-pic.png": "/static/media/profile-pic.d1532ad5f63c047a3438.png",
+    "static/media/portfolio-preview.PNG": "/static/media/portfolio-preview.b55a7c09b1b193550fe7.PNG",
+    "static/media/golden-ratio.png": "/static/media/golden-ratio.81a28051606880e85b6b.png",
+    "static/media/about-me-profile.PNG": "/static/media/about-me-profile.1250a9391aba1ad94a99.PNG",
+    "static/media/social-links.PNG": "/static/media/social-links.7482c17e784c994afb65.PNG",
+    "static/media/hobby-image.PNG": "/static/media/hobby-image.79159e8a34ec6ff3c17b.PNG",
+    "index.html": "/index.html",
+    "main.0bbba82f.css.map": "/static/css/main.0bbba82f.css.map",
+    "main.58a07181.js.map": "/static/js/main.58a07181.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbba82f.css",
+    "static/js/main.58a07181.js"
+  ]
+}
