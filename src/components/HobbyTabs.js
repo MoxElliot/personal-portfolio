@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Context } from "../routes/about-me"
 
 export const HobbyTabs = () => {
-    const {key, updateKey} = useContext(Context)
+    const {key, updateKey } = useContext(Context)
 
     return (
         
