@@ -12,3 +12,11 @@ https://codesandbox.io/s/react-context-api-example-0ghhy
 
  Used Controlled Carousel guide from https://react-bootstrap.github.io/components/carousel/
 Read https://w3collective.com/tab-component-react/ for tab active index
+
+From: https://github.com/rafgraph/spa-github-pages
+
+Basic instructions - there are two things you need from this repo for your single page app to run on GitHub Pages.
+
+Copy over the 404.html file to your repo as is
+Note that if you are setting up a Project Pages site and not using a custom domain (i.e. your site's address is username.github.io/repo-name), then you need to set pathSegmentsToKeep to 1 in the 404.html file in order to keep /repo-name in the path after the redirect. If you are using React Router you'll need to tell it to use the repo-name as the basename, for example '< BrowserRouter basename="/repo-name" />.'
+Copy the redirect script in the index.html file and add it to your index.html file - Note that the redirect script must be placed before your single page app script in your index.html file.  

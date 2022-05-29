@@ -13,7 +13,7 @@ import Contact from "./routes/contact"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/personal-portfolio">
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/home" element={<Home />} />
