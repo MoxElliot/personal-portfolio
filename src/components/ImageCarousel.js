@@ -9,6 +9,7 @@ export const ImageCarousel = () => {
 
     const { key } = useContext(Context);
 
+
     return (
         <Col>
         <h2>the key is {key}</h2>
