@@ -24,7 +24,7 @@ export default function Home() {
                     <Image height={"300rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon"/>
                     </Col>
                 </Row>
-                <Row>  
+                <Row> 
                     <Col className="m-1">
                         <Image src={require("../images/portfolio-preview.PNG")} fluid alt="Portfolio Preview" />
                     </Col>
@@ -33,6 +33,7 @@ export default function Home() {
                     </Col>
                     
                 </Row>
+
                 <Row>  
                     <Col className="d-flex justify-content-end">
                     <Image src={require("../images/social-links.PNG")} className="img-fluid" alt="Portfolio Preview" />

@@ -51,6 +51,45 @@ export const ImageCarousel = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        <Carousel 
+            variant="dark" 
+            interval={null} 
+            controls={false} 
+            indicators={false} 
+            activeIndex={ key }
+            >
+    
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={require("../images/hobby-image.PNG")}
+                alt="First slide"
+                />
+                <Carousel.Caption >
+                <h3 className="text-success">First B slide label</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img
+                className="d-block w-100"
+                src={require("../images/hobby-image.PNG")}
+                alt="Second slide"
+                />
+                <Carousel.Caption>
+                <h3 className="text-success">Second B slide label</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img
+                className="d-block w-100"
+                src={require("../images/hobby-image.PNG")}
+                alt="Third slide"
+                />
+                <Carousel.Caption>
+                <h3 className="text-success">Third B slide label</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
         </Col>
     )
 }

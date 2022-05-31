@@ -32,12 +32,30 @@ export default function AboutMe() {
                     </Col>
                 </Row>
                 <Row>
+                    <Col xs={8}>
                     <Context.Provider value={{
                         key, 
                         setKey: key => setKey(key)}}>
                         <HobbyTabs />
+                    </Context.Provider>
+                    </Col>  
+                    <Col>
+                    <Context.Provider value={{
+                        key, 
+                        setKey: key => setKey(key)}}>
                         <ImageCarousel />
                     </Context.Provider>
+                    </Col>
+                </Row>
+                <Row>  
+                    <Col>
+            
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-end">
+                        <Image src={require("../images/social-links.PNG")} className="img-fluid" alt="Portfolio Preview" />
+                    </Col>
                 </Row>
            </Container>
         </main>
