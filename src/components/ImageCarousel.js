@@ -1,35 +1,40 @@
 
 import { Carousel, Col } from 'react-bootstrap';
 import { Context } from "../routes/about-me"
-import {  useContext, useState} from "react";
+import {  useContext, useState, useEffect } from "react";
 
-{/* Read to start tomorrow https://stackoverflow.com/questions/64586591/add-active-class-to-li-items-in-react*/}
 
+ 
 export const ImageCarousel = () => {
 
     const { key } = useContext(Context);
+  
+      
+    const index = ( key === 0 ? "active" : "unactive")
+    console.log(key)
+    console.log(index)
 
 
+ 
     return (
         <Col>
-        <h2>the key is {key}</h2>
+        <h2>the key is {key} </h2>
  
         <Carousel 
-            
             variant="dark" 
             interval={null} 
             controls={false} 
             indicators={false} 
-            activeIndex={key}
+            activeIndex={ key }
             >
     
-            <Carousel.Item >
+            <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="First slide"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption >
                 <h3 className="text-success">First slide label</h3>
                 </Carousel.Caption>
             </Carousel.Item>
