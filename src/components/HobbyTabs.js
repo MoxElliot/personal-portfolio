@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Context } from "../routes/about-me"
 
 export const HobbyTabs = () => {
-    const {key, updateKey } = useContext(Context)
+    const {key, setKey } = useContext(Context)
 
     return (
         
@@ -14,9 +14,7 @@ export const HobbyTabs = () => {
             <Tabs
                 activeKey={key}
                 transition={false}
-                onSelect={(k) => 
-                    updateKey(k)
-                }
+                onSelect={(k) => setKey(Number(k))}
                 id="hobby-tabs-no-animation"
                 className="mb-3"
             >
