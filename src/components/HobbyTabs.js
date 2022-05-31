@@ -14,7 +14,7 @@ export const HobbyTabs = () => {
             <Tabs
                 activeKey={key}
                 transition={false}
-                onSelect={(k) => setKey(k)}
+                onSelect={(k) => setKey(Number(k))}
                 id="hobby-tabs-no-animation"
                 className="mb-3"
             >
