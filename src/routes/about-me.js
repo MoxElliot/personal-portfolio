@@ -1,4 +1,4 @@
-import { Row, Col, Image, Container} from "react-bootstrap";
+import { Row, Col, Image, Container } from "react-bootstrap";
 import { ImageCarousel } from "../components/ImageCarousel"
 import { HobbyTabs } from "../components/HobbyTabs"
 import { useState, createContext } from "react";
@@ -8,6 +8,54 @@ export const Context = createContext()
 export default function AboutMe() {
 
     const [key, setKey] = useState(0)
+
+    const mediaImageArray = [
+        {
+            number: 0,
+            title: 'zero',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 1,
+            title: 'one',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 2,
+            title: 'two',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 3,
+            title: 'three',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 4,
+            title: 'four',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 5,
+            title: 'five',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 6,
+            title: 'six',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 7,
+            title: 'seven',
+            image: "../images/about-me-profile.PNG",
+          },
+          {
+            number: 8,
+            title: 'eight',
+            image: "../images/about-me-profile.PNG",
+          }
+    ]
     
     return (
         <main style={{ padding: "1rem 0"}} >
@@ -47,10 +95,17 @@ export default function AboutMe() {
                     </Context.Provider>
                     </Col>
                 </Row>
-                <Row>  
-                    <Col>
-            
-                    </Col>
+         
+                <Row >
+                    { mediaImageArray.map((item, index) => (
+                            <Col key={index} xs={4} >
+                                <Image
+                                    thumbnail="true"
+                                    src={require("../images/hobby-image.PNG")}
+                                />
+                            </Col>
+                        ))}
+                        
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-end">
