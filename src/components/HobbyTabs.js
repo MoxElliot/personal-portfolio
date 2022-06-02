@@ -8,7 +8,7 @@ export const HobbyTabs = () => {
 
     return (
         
-        <Col className="mt-5" md={6}>
+        <Col className="mt-5" md={8}>
        
             <h2 className="text-center">Hobbies and Interests</h2>
             <Tabs

@@ -80,6 +80,7 @@ export default function AboutMe() {
                     </Col>
                 </Row>
                 <Row>
+                  
                     <Col xs={8}>
                     <Context.Provider value={{
                         key, 
@@ -96,16 +97,17 @@ export default function AboutMe() {
                     </Col>
                 </Row>
          
-                <Row >
-                    { mediaImageArray.map((item, index) => (
-                            <Col key={index} xs={4} >
-                                <Image
-                                    thumbnail="true"
-                                    src={require("../images/hobby-image.PNG")}
-                                />
-                            </Col>
-                        ))}
-                        
+                <Row className="w-50 text-center">
+                  <h3>My Favorite Media</h3>
+                  { mediaImageArray.map((item, index) => (
+                          <Col key={index} xs={4} >
+                              <Image
+                                  thumbnail="true"
+                                  src={require("../images/hobby-image.PNG")}
+                              />
+                          </Col>
+                      ))}
+                    <p>Click image to check it out!</p>          
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-end">
