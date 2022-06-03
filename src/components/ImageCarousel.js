@@ -1,5 +1,5 @@
 
-import { Carousel, Col } from 'react-bootstrap';
+import { Carousel, Col, Image } from 'react-bootstrap';
 import { Context } from "../routes/about-me"
 import {  useContext } from "react";
 
@@ -19,10 +19,10 @@ export const ImageCarousel = () => {
             indicators={false} 
             activeIndex={ key }
             >
-    
+
             <Carousel.Item>
-                <img
-                className="d-block w-100"
+                <Image
+                className="d-block  w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="First slide"
                 />
@@ -30,8 +30,8 @@ export const ImageCarousel = () => {
                 <h3 className="text-success">First slide label</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item >
-                <img
+            <Carousel.Item>
+                <Image
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="Second slide"
@@ -41,7 +41,7 @@ export const ImageCarousel = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
-                <img
+                <Image
                 className="d-block w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="Third slide"
@@ -57,11 +57,12 @@ export const ImageCarousel = () => {
             controls={false} 
             indicators={false} 
             activeIndex={ key }
+            className="d-none d-md-block"
             >
     
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="First slide"
                 />
@@ -71,7 +72,7 @@ export const ImageCarousel = () => {
             </Carousel.Item>
             <Carousel.Item >
                 <img
-                className="d-block w-100"
+                className=" w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="Second slide"
                 />
@@ -81,7 +82,7 @@ export const ImageCarousel = () => {
             </Carousel.Item>
             <Carousel.Item >
                 <img
-                className="d-block w-100"
+                className="w-100"
                 src={require("../images/hobby-image.PNG")}
                 alt="Third slide"
                 />

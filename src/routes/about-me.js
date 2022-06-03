@@ -81,14 +81,14 @@ export default function AboutMe() {
                 </Row>
                 <Row>
                   
-                    <Col xs={8}>
+                    <Col md={8}>
                     <Context.Provider value={{
                         key, 
                         setKey: key => setKey(key)}}>
                         <HobbyTabs />
                     </Context.Provider>
                     </Col>  
-                    <Col>
+                    <Col >
                     <Context.Provider value={{
                         key, 
                         setKey: key => setKey(key)}}>
