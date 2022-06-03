@@ -2,6 +2,7 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import { ImageCarousel } from "../components/ImageCarousel"
 import { HobbyTabs } from "../components/HobbyTabs"
 import { useState, createContext } from "react";
+import { SocialLinks } from "../components/SocialLinks";
 
 export const Context = createContext()
 
@@ -109,11 +110,7 @@ export default function AboutMe() {
                       ))}
                     <p>Click image to check it out!</p>          
                 </Row>
-                <Row>
-                    <Col className="d-flex justify-content-end">
-                        <Image src={require("../images/social-links.PNG")} className="img-fluid" alt="Portfolio Preview" />
-                    </Col>
-                </Row>
+                <SocialLinks />
            </Container>
         </main>
     );

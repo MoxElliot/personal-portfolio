@@ -1,4 +1,5 @@
 import { Row, Col, Image, Container} from "react-bootstrap";
+import { SocialLinks } from "../components/SocialLinks";
 
 export default function Home() {
     return (
@@ -34,11 +35,7 @@ export default function Home() {
                     
                 </Row>
 
-                <Row>  
-                    <Col className="d-flex justify-content-end">
-                    <Image src={require("../images/social-links.PNG")} className="img-fluid" alt="Portfolio Preview" />
-                    </Col>
-                </Row>
+                <SocialLinks />
             </Container>
         </main>
     );
