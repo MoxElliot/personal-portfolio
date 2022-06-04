@@ -10,12 +10,12 @@ import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
 
 export default function Contact() {
     return (
-        <main style={{ padding: "1rem 0"}} >
+        <Container>
             <Row>
-            <Col xs={6} className="ps-5">
-            <Image fluid src={require("../images/golden-ratio.png")} />
-            </Col>
-            <Col xs={6} className="p-5">
+                <Col xs={12} md={6} className="ps-5 text-center">
+                    <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
+                </Col>
+            <Col xs={12} md={6} className="p-5">
                 <Card className="text-center">
                     <Card.Header>
                         Link to Resume/CV
@@ -33,7 +33,7 @@ export default function Contact() {
                     </Card.Text>
                 </Card>  
             </Col>
-            <Col xs={12} className="m-5">
+            <Col xs={12}>
                 <Form>
                     <Form.Group className="mb-3 w-50">
                         <Form.Label>Email Address</Form.Label>
@@ -94,6 +94,6 @@ export default function Contact() {
                     </Col>
                 </Row>
             </Container>
-        </main>
+        </Container>
     );
 }
