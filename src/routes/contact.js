@@ -1,18 +1,50 @@
 
-import { Row, Col, Button, ButtonGroup, Container, Image } from "react-bootstrap";
+import {
+    Row, Col, Button, 
+    ButtonGroup, Container, Image, 
+    Card, FormControl, Form 
+        } from "react-bootstrap";
+import React from 'react';
+import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
+
 
 export default function Contact() {
     return (
-        <main style={{ padding: "1rem 0"}} >
+        <Container>
             <Row>
-            <Col className="ps-5">
-            <Image fluid src={require("../images/golden-ratio.png")} />
+                <Col xs={12} md={6} className="ps-5 text-center">
+                    <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
+                </Col>
+            <Col xs={12} md={6} className="p-5">
+                <Card className="text-center">
+                    <Card.Header>
+                        Link to Resume/CV
+                    </Card.Header>
+                    <Card.Body>
+                        <a href={Resume} target="_blank">
+                            <i 
+                            className="fa-regular fa-file-pdf fa-5x"
+                            style={{color: "Grey"}}
+                             />
+                        </a>
+                    </Card.Body>
+                    <Card.Text>
+                        Click to view or download...
+                    </Card.Text>
+                </Card>  
             </Col>
-            <Col className="border border-dark">
-            Resume
-            </Col>
-            <Col className="border border-dark">
-            Contact Form
+            <Col xs={12}>
+                <Form>
+                    <Form.Group className="mb-3 w-50">
+                        <Form.Label>Email Address</Form.Label>
+                        <Form.Control type='email' placeholder="sample@company.com" />
+                    </Form.Group>
+                    <Form.Group className="mb-3 w-75">
+                        <Form.Label>Message Me</Form.Label>
+                        <Form.Control as="textarea" rows={3} placeholder="Your message here..."/>
+                    </Form.Group>
+                    <Button variant="secondary" type="submit">Submit</Button>
+                </Form>
             </Col>
             </Row>
             <Container>
@@ -62,6 +94,6 @@ export default function Contact() {
                     </Col>
                 </Row>
             </Container>
-        </main>
+        </Container>
     );
 }
