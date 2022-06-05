@@ -15,7 +15,7 @@ export default function Contact() {
                 <Col xs={12} md={6} className="ps-5 text-center">
                     <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
                 </Col>
-            <Col xs={12} md={6} className="p-5">
+            <Col xs={12} lg={6} className="p-5">
                 <Card className="text-center">
                     <Card.Header>
                         Link to Resume/CV
