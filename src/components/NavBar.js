@@ -6,18 +6,12 @@ export function NavBar() {
   return (
     <Navbar bg="light" expand="sm">
       <Container fluid>
-        <Navbar.Brand className="ms-2">
+        <Navbar.Brand className="ms-2" href="./home">
           <Image height={"70rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />
-        </Navbar.Brand>  {/* as={Link} is a react-bootstrap render prop which specifies which compoent should be rendered instead of the default (Nav.LinK) */}
+        </Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto" variant="tabs">
-          <Nav.Link 
-              as={Link} 
-              to="/home"
-              eventKey="link-4"
-              >Home
-            </Nav.Link>
             <Nav.Link 
               as={Link} 
               to="/portfolio"
