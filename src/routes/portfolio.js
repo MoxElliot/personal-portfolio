@@ -13,7 +13,7 @@ export default function Portfolio() {
                         <h1>Portfolio Details</h1>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="mt-3">
                     <Col md={6} className="text-center">
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
                             <Figure>
@@ -68,7 +68,7 @@ export default function Portfolio() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="mt-3">
                     <Col md={6} className="text-center">
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
                             <Figure>
@@ -123,7 +123,7 @@ export default function Portfolio() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="mt-3">
                     <Col md={6} className="text-center">
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
                             <Figure>
