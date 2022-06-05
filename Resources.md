@@ -23,3 +23,6 @@ Copy the redirect script in the index.html file and add it to your index.html fi
 
 
 Freecodecamp has a different solution to using react router on github pages: https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+
+
+Good bootstrap 5 docs : https://mdbootstrap.com/docs/b5/react/layout/grid/

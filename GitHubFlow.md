@@ -30,3 +30,4 @@ Feature Branch Workflow
         
 7.	Pull remote main to local main to update local
     a.	git pull origin main
+    b. npm run deploy <-- to update gh-pages branch (recreates it I think)
