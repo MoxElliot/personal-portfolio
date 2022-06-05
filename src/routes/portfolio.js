@@ -10,13 +10,12 @@ export default function Portfolio() {
             <Container>
                 <Row className="text-center">
                     <Col>
-                        <h2>Portfolio Details</h2>
-                        <h1> Test</h1>
+                        <h1>Portfolio Details</h1>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
-                        <a>
+                    <Col md={6} className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/media-tile.PNG")}
@@ -39,7 +38,6 @@ export default function Portfolio() {
                                     Features
                                 </Card.Title>
                                 <Card.Text>
-                                    <ul>
                                         <li>
                                             Vix e conspectu Siculae 
                                         </li>
@@ -55,19 +53,133 @@ export default function Portfolio() {
                                         <li>
                                             Aeternum servans sub pectore volnus
                                         </li>
-                                    </ul>
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
+                            <Card.Footer className="text-center">
                                 <Card.Title>
                                     Technology Stack
                                 </Card.Title>
-                                <i className="fa-brands fa-react"></i>
+                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
+                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
+                                <i className="fa-brands fa-sass fa-2x p-2"></i>
+                                <i className="fa-brands fa-react fa-2x p-2"></i>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={6} className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/media-tile.PNG")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Portfolio Link #2
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col md={6}>
+                        <Card>
+                            <Card.Header>
+                                Mūsa, mihī causās memorā, quō nūmine laesō.
+                            </Card.Header>
+                            <Card.Body>
+                                <Card.Title>
+                                    Features
+                                </Card.Title>
+                                <Card.Text>
+                                        <li>
+                                            Vix e conspectu Siculae 
+                                        </li>
+                                        <li>
+                                            Telluris in altum
+                                        </li>
+                                        <li>
+                                            Vela dabant laeti, et spumas salis 
+                                        </li>
+                                        <li>
+                                            Aere ruebant cum Iuno
+                                        </li>
+                                        <li>
+                                            Aeternum servans sub pectore volnus
+                                        </li>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="text-center">
+                                <Card.Title>
+                                    Technology Stack
+                                </Card.Title>
+                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
+                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
+                                <i className="fa-brands fa-sass fa-2x p-2"></i>
+                                <i className="fa-brands fa-react fa-2x p-2"></i>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={6} className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/media-tile.PNG")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Portfolio Link #3
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col md={6}>
+                        <Card>
+                            <Card.Header>
+                                Mūsa, mihī causās memorā, quō nūmine laesō.
+                            </Card.Header>
+                            <Card.Body>
+                                <Card.Title>
+                                    Features
+                                </Card.Title>
+                                <Card.Text>
+                                        <li>
+                                            Vix e conspectu Siculae 
+                                        </li>
+                                        <li>
+                                            Telluris in altum
+                                        </li>
+                                        <li>
+                                            Vela dabant laeti, et spumas salis 
+                                        </li>
+                                        <li>
+                                            Aere ruebant cum Iuno
+                                        </li>
+                                        <li>
+                                            Aeternum servans sub pectore volnus
+                                        </li>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="text-center">
+                                <Card.Title>
+                                    Technology Stack
+                                </Card.Title>
+                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
+                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
+                                <i className="fa-brands fa-sass fa-2x p-2"></i>
+                                <i className="fa-brands fa-react fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
             </Container>
+            
         </main>
     );
 }
