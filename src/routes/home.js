@@ -1,4 +1,7 @@
-import { Row, Col, Image, Container} from "react-bootstrap";
+import { 
+        Row, Col, Image, 
+        Container, Figure, Card
+        } from "react-bootstrap";
 import { SocialLinks } from "../components/SocialLinks";
 
 export default function Home() {
@@ -27,7 +30,76 @@ export default function Home() {
                 </Row>
                 <Row> 
                     <Col className="m-1">
-                        <Image src={require("../images/portfolio-preview.PNG")} fluid alt="Portfolio Preview" />
+                <Container>
+                <Row className="text-center">
+                    <Col>
+                        <h3>Portfolio Preview</h3>
+                    </Col>
+                </Row>
+                <Row className="mt-1">
+                    <Col className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/media-tile.PNG")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Portfolio Link #1
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col>
+                        <p>
+                            Mūsa, mihī causās memorā, quō nūmine laesō.
+                        </p>
+                    </Col>
+                </Row>
+                <Row className="mt-1">
+                    <Col className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/media-tile.PNG")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Portfolio Link #1
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col>
+                        <p>
+                            Mūsa, mihī causās memorā, quō nūmine laesō.
+                        </p>
+                    </Col>
+                </Row>
+                <Row className="mt-1">
+                    <Col className="text-center">
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/media-tile.PNG")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Portfolio Link #1
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col>
+                        <p>
+                            Mūsa, mihī causās memorā, quō nūmine laesō.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
                     </Col>
                     <Col className="m-1 d-none d-sm-block">
                         <Image height={"600rem"} src={require("../images/profile-pic.png")} fluid alt="Profile Picture" />
