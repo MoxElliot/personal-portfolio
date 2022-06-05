@@ -11,6 +11,11 @@ import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
 export default function Contact() {
     return (
         <Container>
+            <Row className="text-center mt-3">
+                <Col>
+                    <h1> Contact Elliot </h1>
+                </Col>
+            </Row>
             <Row>
                 <Col xs={12} lg={6} className="ps-5 text-center">
                     <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
