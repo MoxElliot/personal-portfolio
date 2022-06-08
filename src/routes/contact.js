@@ -16,11 +16,14 @@ export default function Contact() {
                     <h1> Contact Elliot </h1>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12} lg={6} className="ps-5 text-center">
-                    <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
+            <Row className="d-flex justify-content-center">
+                <Col xs={10} md={6} className="ps-5">
+                    <Image 
+                        fluid
+                        src={require("../images/golden-ratio.png")} 
+                    />
                 </Col>
-            <Col xs={12} lg={6} className="p-5">
+            <Col xs={12} md={6} className="p-5">
                 <Card className="text-center">
                     <Card.Header>
                         Link to Resume/CV
@@ -40,7 +43,7 @@ export default function Contact() {
             </Col>
             <Col xs={12}>
                 <Form>
-                    <Form.Group className="mb-3 w-50">
+                    <Form.Group className="mb-3 w-75">
                         <Form.Label>Email Address</Form.Label>
                         <Form.Control type='email' placeholder="sample@company.com" />
                     </Form.Group>
@@ -52,10 +55,10 @@ export default function Contact() {
                 </Form>
             </Col>
             </Row>
-            <Container>
-                <Row >
-                    <Col className="text-center p-5" >
-                        <ButtonGroup className="d-flex justify-content-around">
+           
+                <Row>
+                    <Col className="text-center p-5">
+                        <ButtonGroup className="d-flex justify-content-around flex-wrap">
                         <Button 
                             href="https://www.freecodecamp.org/fccd6d2b58b-aecf-4f42-9e37-c12c7c081a35" 
                             target="_blank" 
@@ -98,7 +101,7 @@ export default function Contact() {
                         </ButtonGroup>
                     </Col>
                 </Row>
-            </Container>
+            
         </Container>
     );
 }
