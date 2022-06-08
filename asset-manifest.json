@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.08cb542f.css",
-    "main.js": "/personal-portfolio/static/js/main.68281929.js",
+    "main.js": "/personal-portfolio/static/js/main.6b47da9f.js",
     "static/media/Elliot_Erickson_Full_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Full_CV.5c3eeb2fe4489536358c.pdf",
     "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d1532ad5f63c047a3438.png",
     "static/media/golden-ratio.png": "/personal-portfolio/static/media/golden-ratio.81a28051606880e85b6b.png",
@@ -10,10 +10,10 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/media-tile.PNG": "/personal-portfolio/static/media/media-tile.9dc0a4d3a765770efdbe.PNG",
     "main.08cb542f.css.map": "/personal-portfolio/static/css/main.08cb542f.css.map",
-    "main.68281929.js.map": "/personal-portfolio/static/js/main.68281929.js.map"
+    "main.6b47da9f.js.map": "/personal-portfolio/static/js/main.6b47da9f.js.map"
   },
   "entrypoints": [
     "static/css/main.08cb542f.css",
-    "static/js/main.68281929.js"
+    "static/js/main.6b47da9f.js"
   ]
 }
