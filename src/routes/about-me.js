@@ -14,47 +14,56 @@ export default function AboutMe() {
         {
             number: 0,
             title: 'zero',
-            image: "../images/about-me-profile.PNG",
+            image: "https://images-na.ssl-images-amazon.com/images/I/41ODxbkAqIL._SX324_BO1,204,203,200_.jpg",
+            link: "https://en.wikipedia.org/wiki/The_Brothers_Karamazov"
           },
           {
             number: 1,
             title: 'one',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/51vM1OQSEgL._SY355_.jpg",
+            link: "https://www.youtube.com/watch?v=_tklCnpXUGY"
           },
           {
             number: 2,
             title: 'two',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/915DHAe2yXL._AC_UY218_.jpg",
+            link: "https://www.nottingham.ac.uk/scope/documents/2003/may-2003/merrin.pdf"
           },
           {
             number: 3,
             title: 'three',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/81bcR1H5MvL._SY355_.jpg",
+            link: "https://www.youtube.com/watch?v=ekALA6N0NEM&list=OLAK5uy_mCI9g0tAzBZTtwfil1u31GY8p6vdQ3Kpk"
           },
           {
             number: 4,
             title: 'four',
-            image: "../images/about-me-profile.PNG",
+            image: "https://images-na.ssl-images-amazon.com/images/I/41jMnvITH7L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+            link: "https://cummings.ee/book/and/poem/and-seven-poems-vii/"
           },
           {
             number: 5,
             title: 'five',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/71BUBWTvyhL._SY355_.jpg",
+            link: "https://www.youtube.com/watch?v=2vG_pZfp084"
           },
           {
             number: 6,
             title: 'six',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/510okYkTZ5L._AC_UY218_.jpg",
+            link: "https://en.wikipedia.org/wiki/The_Wheel_of_Time"
           },
           {
             number: 7,
             title: 'seven',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/A1l09sdRK-L._AC_UY218_.jpg",
+            link: "https://www.imdb.com/title/tt0335266/"
           },
           {
             number: 8,
             title: 'eight',
-            image: "../images/about-me-profile.PNG",
+            image: "https://m.media-amazon.com/images/I/715eN7hCs+L._AC_UY218_.jpg",
+            link: "https://www.youtube.com/watch?v=y79Hv2b-EQg"
           }
     ]
     
@@ -98,15 +107,19 @@ export default function AboutMe() {
                     </Col>
                 </Row>
          
-                <Row className="w-75 text-center mx-auto mx-md-0">
+                <Row className="w-75 text-center mx-auto mx-md-0" lg={8}>
                   <h3>My Favorite Media</h3>
-                  { mediaImageArray.map((index) => (
-                          <Col key={index} xs={4}>
-                              <Image
+                  { mediaImageArray.map((item) => (
+                          <Col key={item.number} xs={4}>
+                              <a href={item.link}  
+                                 target="_blank" 
+                                 rel="noreferrer">
+                                <Image
                                   thumbnail="true"
                                   width="1500"
-                                  src={require("../images/hobby-image.PNG")}
+                                  src={item.image}
                               />
+                              </a>
                           </Col>
                       ))}
                     <p>Click image to check it out!</p>          
