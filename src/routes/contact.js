@@ -40,7 +40,7 @@ export default function Contact() {
             </Col>
             <Col xs={12}>
                 <Form>
-                    <Form.Group className="mb-3 w-50">
+                    <Form.Group className="mb-3 w-75">
                         <Form.Label>Email Address</Form.Label>
                         <Form.Control type='email' placeholder="sample@company.com" />
                     </Form.Group>
@@ -52,10 +52,10 @@ export default function Contact() {
                 </Form>
             </Col>
             </Row>
-            <Container>
-                <Row >
-                    <Col className="text-center p-5" >
-                        <ButtonGroup className="d-flex justify-content-around">
+           
+                <Row>
+                    <Col className="text-center p-5">
+                        <ButtonGroup className="d-flex justify-content-around flex-wrap">
                         <Button 
                             href="https://www.freecodecamp.org/fccd6d2b58b-aecf-4f42-9e37-c12c7c081a35" 
                             target="_blank" 
@@ -98,7 +98,7 @@ export default function Contact() {
                         </ButtonGroup>
                     </Col>
                 </Row>
-            </Container>
+            
         </Container>
     );
 }
