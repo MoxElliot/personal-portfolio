@@ -2,7 +2,7 @@
 import {
     Row, Col, Button, 
     ButtonGroup, Container, Image, 
-    Card, FormControl, Form 
+    Card, Form 
         } from "react-bootstrap";
 import React from 'react';
 import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
@@ -26,7 +26,7 @@ export default function Contact() {
                         Link to Resume/CV
                     </Card.Header>
                     <Card.Body>
-                        <a href={Resume} target="_blank">
+                        <a href={Resume} target="_blank" rel="noreferrer">
                             <i 
                             className="fa-regular fa-file-pdf fa-5x"
                             style={{color: "Grey"}}

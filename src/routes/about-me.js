@@ -98,12 +98,13 @@ export default function AboutMe() {
                     </Col>
                 </Row>
          
-                <Row className="w-50 text-center">
+                <Row className="w-75 text-center mx-auto mx-md-0">
                   <h3>My Favorite Media</h3>
-                  { mediaImageArray.map((item, index) => (
-                          <Col key={index} xs={4} >
+                  { mediaImageArray.map((index) => (
+                          <Col key={index} xs={4}>
                               <Image
                                   thumbnail="true"
+                                  width="1500"
                                   src={require("../images/hobby-image.PNG")}
                               />
                           </Col>

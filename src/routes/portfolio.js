@@ -15,7 +15,7 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3">
                     <Col md={6} className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/media-tile.PNG")}
@@ -70,7 +70,7 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3">
                     <Col md={6} className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/media-tile.PNG")}
@@ -125,7 +125,7 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3">
                     <Col md={6} className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" >
+                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/media-tile.PNG")}
