@@ -18,7 +18,10 @@ export default function Contact() {
             </Row>
             <Row>
                 <Col xs={12} lg={6} className="ps-5 text-center">
-                    <Image style={{maxWidth: '24rem'}} src={require("../images/golden-ratio.png")} />
+                    <Image 
+                        fluid
+                        src={require("../images/golden-ratio.png")} 
+                    />
                 </Col>
             <Col xs={12} lg={6} className="p-5">
                 <Card className="text-center">
