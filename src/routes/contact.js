@@ -6,6 +6,7 @@ import {
         } from "react-bootstrap";
 import React from 'react';
 import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
+import { ContactForm } from "../components/ContactForm";
 
 
 export default function Contact() {
@@ -42,17 +43,7 @@ export default function Contact() {
                 </Card>  
             </Col>
             <Col xs={12}>
-                <Form>
-                    <Form.Group className="mb-3 w-75">
-                        <Form.Label>Email Address</Form.Label>
-                        <Form.Control type='email' placeholder="sample@company.com" />
-                    </Form.Group>
-                    <Form.Group className="mb-3 w-75">
-                        <Form.Label>Message Me</Form.Label>
-                        <Form.Control as="textarea" rows={3} placeholder="Your message here..."/>
-                    </Form.Group>
-                    <Button variant="secondary" type="submit">Submit</Button>
-                </Form>
+                <ContactForm />
             </Col>
             </Row>
            
