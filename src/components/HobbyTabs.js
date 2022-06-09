@@ -20,26 +20,26 @@ export const HobbyTabs = () => {
             >
                 <Tab 
                     eventKey={0} 
-                    title="Hobby One"
+                    title="Kintsugi"
                     >
                     <p className="lead">
-                    Hīs accēnsa super iactātōs aequore tōtō Trōas, rēliquiās Danaum atque immītis Achillī, arcēbat longē Latiō, multōsque per annōs errābant, āctī Fātīs, maria omnia circum.Tantae mōlis erat Rōmānam condere gentem!
+                    This ancient Japanese method of repairing pottery seeks not to hide the resulting imperfection, but to stregthen and adorn it. With slow-curing lacquer and a final layer of gold the work is restored to its original functionality. The result may be even more beautiful than before!
                     </p>
                 </Tab>
                 <Tab 
                     eventKey={1}
-                    title="Hobby Two"
+                    title="Go"
                     >
                     <p className="lead">
-                    Aeolus haec contra: 'Tuus, O regina, quid optes explorare labor; mihi iussa capessere fas est. Tu mihi, quodcumque hoc regni, tu sceptra Iovemque concilias, tu das epulis accumbere divom, nimborumque facis tempestatumque potentem.'
+                    Go is a board game played with white and black stones laid alternately on a grid. The objective is to use your stones to surround as many interceptions/points on that grid as possible, while hindering your opponent from doing the same. It was the Holy Grail for AI research with Googles Deep Mind finally beating the world's best player in 2006.
                     </p>
                 </Tab>
                 <Tab 
                     eventKey={2}
-                    title="Hobby Three"
+                    title="Cycling"
                     >
                     <p className="lead">
-                    Haec ubi dicta, cavum conversa cuspide montem impulit in latus: ac venti, velut agmine facto, qua data porta, ruunt et terras turbine perflant. Incubuere mari, totumque a sedibus imisna Eurusque Notusque ruunt creberque procellis Africus, et vastos volvunt ad litora fluctus.
+                    Go far. Go fast. Live forever. Road cycling is an amazing sport. It both is great for the body and connects us with the natural world. Just remember, to always bring a spare...
                     </p>
                 </Tab>
             </Tabs>  

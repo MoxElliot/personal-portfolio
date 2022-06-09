@@ -19,36 +19,27 @@ export const ImageCarousel = () => {
             indicators={false} 
             activeIndex={ key }
             >
-
-            <Carousel.Item>
+            <Carousel.Item >
                 <Image
                 className="d-block  w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/kintsugi-one.jpg")}
                 alt="First slide"
                 />
-                <Carousel.Caption >
-                <h3 className="text-success">First slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
+        
             <Carousel.Item>
                 <Image
                 className="d-block w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/go-one.jfif")}
                 alt="Second slide"
                 />
-                <Carousel.Caption>
-                <h3 className="text-success">Second slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
                 <Image
                 className="d-block w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/bike-one.jpg")}
                 alt="Third slide"
                 />
-                <Carousel.Caption>
-                <h3 className="text-success">Third slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
         <Carousel 
@@ -63,32 +54,23 @@ export const ImageCarousel = () => {
             <Carousel.Item>
                 <img
                 className="w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/kintsugi-two.jpg")}
                 alt="First slide"
                 />
-                <Carousel.Caption >
-                <h3 className="text-success">First B slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
                 <img
                 className=" w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/go-two.jfif")}
                 alt="Second slide"
                 />
-                <Carousel.Caption>
-                <h3 className="text-success">Second B slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
                 <img
                 className="w-100"
-                src={require("../images/hobby-image.PNG")}
+                src={require("../images/bike-two.jfif")}
                 alt="Third slide"
                 />
-                <Carousel.Caption>
-                <h3 className="text-success">Third B slide label</h3>
-                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
         </Col>

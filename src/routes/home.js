@@ -16,11 +16,7 @@ export default function Home() {
                         <Container>
                         <h3>
                         <b>Front-End Web Developer</b><br />
-                        Arma virumque canō, 
-                        Trōiae quī prīmus ab ōrīs 
-                        italiam, fātō profugus, lāvīniaque
-                        vēnit iītora, multum ille et 
-                        terrīs iactātus et altō 
+                        I am a freelance front-end web consultant. You can lean on me to define, design, and develop the web-based application of your dreams. 
                         </h3>
                         </Container>
                     </Col>

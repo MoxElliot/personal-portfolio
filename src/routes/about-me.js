@@ -78,11 +78,10 @@ export default function AboutMe() {
                 <Row className="align-items-center">
                     <Col md={4}>
                         <p className="lead font-weight-bold">
-                        Mūsa, mihī causās memorā, quō nūmine laesō
+                        I am a techno-bohemian with a wide range of interests and areas of expertise. 
                         </p>
-                        <p className="lead font-weight-bold">Quidve dolēns, rēgīna deum tot volvere cāsūs
-                        īnsīgnem pietāte virum, tot adīre labōrēs impulerit.</p>
-                        <p className="lead font-weight-bold">Tantaene animīs caelestibus īrae?  Urbs antīqua fuit, Tyriī tenuēre colōnī. </p>   
+                        <p className="lead font-weight-bold">Always striving to know more about the world and all the ideas within is important. This pursuit brings richness and depth to one's projects and life in general.</p>
+                        <p className="lead font-weight-bold">On this page you will find out more about me, about what moves me, and hopefully about why you want to work with me. </p>   
                         
                     </Col>
                     <Col md={8}>
