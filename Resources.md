@@ -30,4 +30,6 @@ Good bootstrap 5 docs : https://mdbootstrap.com/docs/b5/react/layout/grid/
 MERN Setup (MongoDB form submission) https://www.mongodb.com/languages/mern-stack-tutorial
 https://www.mongodb.com/languages/mern-stack-tutorial
 
+https://medium.com/@sergio13prez/connecting-to-mongodb-atlas-d1381f184369
+
 connection string: mongodb+srv://eric0952:Eric5042@mongoatlascluster.5nkuq.mongodb.net/?retryWrites=true&w=majority
