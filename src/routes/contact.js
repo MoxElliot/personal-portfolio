@@ -6,7 +6,7 @@ import {
         } from "react-bootstrap";
 import React from 'react';
 import Resume from '../images/Elliot_Erickson_Full_CV.pdf'
-import { ContactForm } from "../components/ContactForm";
+import { ContactForm } from '../components/ContactForm'
 
 
 export default function Contact() {
