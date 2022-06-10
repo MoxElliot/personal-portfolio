@@ -16,7 +16,7 @@ recordRoutes.route("/record/add").post(function (req, response) {
    position: req.body.position,
    level: req.body.level,
  };
- db_connect.collection("records").insertOne(myobj, function (err, res) {
+ db_connect.collection("message").insertOne(myobj, function (err, res) {
    if (err) throw err;
    response.json(res);
  });

@@ -6,7 +6,7 @@ export function NavBar() {
   return (
     <Navbar bg="light" expand="sm">
       <Container fluid>
-        <Navbar.Brand className="ms-2" as={Link} to="/home" >
+        <Navbar.Brand className="ms-2" as={Link} to="/" >
           <Image height={"70rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />
         </Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
