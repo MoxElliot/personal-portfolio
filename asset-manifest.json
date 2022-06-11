@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.08cb542f.css",
-    "main.js": "/personal-portfolio/static/js/main.6b47da9f.js",
+    "main.js": "/personal-portfolio/static/js/main.6eebe2a0.js",
+    "static/media/kintsugi-one.jpg": "/personal-portfolio/static/media/kintsugi-one.efdda746f88bdd1da6ca.jpg",
+    "static/media/kintsugi-two.jpg": "/personal-portfolio/static/media/kintsugi-two.6a96d60dc73ac4bcab43.jpg",
     "static/media/Elliot_Erickson_Full_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Full_CV.5c3eeb2fe4489536358c.pdf",
     "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d1532ad5f63c047a3438.png",
+    "static/media/portfolio-preview.PNG": "/personal-portfolio/static/media/portfolio-preview.cb7633bbc8361eab6301.PNG",
+    "static/media/bike-one.jpg": "/personal-portfolio/static/media/bike-one.0ec31b0f202b5b4d0110.jpg",
     "static/media/golden-ratio.png": "/personal-portfolio/static/media/golden-ratio.81a28051606880e85b6b.png",
+    "static/media/go-one.jfif": "/personal-portfolio/static/media/go-one.ea943b48e3906a5af7c2.jfif",
+    "static/media/go-two.jfif": "/personal-portfolio/static/media/go-two.a32718ff154ee2eca871.jfif",
     "static/media/about-me-profile.PNG": "/personal-portfolio/static/media/about-me-profile.1250a9391aba1ad94a99.PNG",
-    "static/media/hobby-image.PNG": "/personal-portfolio/static/media/hobby-image.79159e8a34ec6ff3c17b.PNG",
+    "static/media/bike-two.jfif": "/personal-portfolio/static/media/bike-two.f48ffba6f7795c83e2a1.jfif",
     "index.html": "/personal-portfolio/index.html",
     "static/media/media-tile.PNG": "/personal-portfolio/static/media/media-tile.9dc0a4d3a765770efdbe.PNG",
     "main.08cb542f.css.map": "/personal-portfolio/static/css/main.08cb542f.css.map",
-    "main.6b47da9f.js.map": "/personal-portfolio/static/js/main.6b47da9f.js.map"
+    "main.6eebe2a0.js.map": "/personal-portfolio/static/js/main.6eebe2a0.js.map"
   },
   "entrypoints": [
     "static/css/main.08cb542f.css",
-    "static/js/main.6b47da9f.js"
+    "static/js/main.6eebe2a0.js"
   ]
 }
