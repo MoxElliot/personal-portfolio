@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Button, Form } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Button, Form, Alert } from "react-bootstrap";
 
 
 export const ContactForm = () => {
@@ -8,13 +7,15 @@ export const ContactForm = () => {
         email: "",
         message:"",
     });
-
-    const navigate = useNavigate();
  
     const handleChange = (value) => {
         return setform((prev) => {
             return {...prev, ...value};
         });
+    }
+
+    const submitAlert = () => {
+        alert("Thank's for your message!")
     }
 
     async function handleSubmit(e){
@@ -34,9 +35,10 @@ export const ContactForm = () => {
             return;
         });
         setform({ email: "", message: ""});
+        submitAlert();
     }
 
-
+   
 return (
     <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3 w-75">
