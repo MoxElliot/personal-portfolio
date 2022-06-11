@@ -34,10 +34,9 @@ export const ContactForm = () => {
             return;
         });
         setform({ email: "", message: ""});
-        navigate("/");
     }
 
-{/*Start Here: https://medium.com/create-a-clocking-in-system-on-react/handle-form-submissions-in-react-to-a-mongodb-backend-a90cac7c81e9*/}
+
 return (
     <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3 w-75">
