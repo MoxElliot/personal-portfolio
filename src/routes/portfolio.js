@@ -3,6 +3,8 @@ import {
     Row, Col, Container,
     Card,  Figure 
         } from "react-bootstrap";
+import React from 'react';
+import ReactDOM from 'react-dom'
 
 export default function Portfolio() {
     return (
@@ -15,15 +17,15 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3">
                     <Col md={6} className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
+                    <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/media-tile.PNG")}
+                                src={require("../images/portfolio-preview.PNG")}
                                 width={400}
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Portfolio Link #1
+                                    My Personal Portfolio Site
                                 </Figure.Caption>
                             </Figure>
                         </a>
