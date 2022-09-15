@@ -33,3 +33,5 @@ https://www.mongodb.com/languages/mern-stack-tutorial
 https://medium.com/@sergio13prez/connecting-to-mongodb-atlas-d1381f184369
 
 connection string: mongodb+srv://eric0952:Eric5042@mongoatlascluster.5nkuq.mongodb.net/?retryWrites=true&w=majority
+
+node server.js to start MongoDB

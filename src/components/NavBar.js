@@ -6,9 +6,9 @@ export function NavBar() {
   return (
     <Navbar bg="light" expand="sm">
       <Container fluid className="mx-5">
-        <Navbar.Brand className="ms-2" as={Link} to="/" >
+        <Nav.Link className="ms-2" as={Link} to="/" >
           <Image height={"70rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />
-        </Navbar.Brand> 
+        </Nav.Link> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto" variant="tabs">

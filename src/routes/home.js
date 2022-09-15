@@ -37,12 +37,12 @@ export default function Home() {
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/media-tile.PNG")}
+                                src={require("../images/portfolio-preview.PNG")}
                                 width={400}
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Portfolio Link #1
+                                    My Personal Portfolio Site
                                 </Figure.Caption>
                             </Figure>
                         </a>
