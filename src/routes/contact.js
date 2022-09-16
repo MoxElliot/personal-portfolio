@@ -18,7 +18,7 @@ export default function Contact() {
                 </Col>
             </Row>
             <Row className="d-flex justify-content-center">
-                <Col xs={10} md={6} className="ps-5">
+                <Col xs={10} md={6} lg={4} className="ps-5">
                     <Image 
                         fluid
                         src={require("../images/golden-ratio.png")} 

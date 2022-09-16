@@ -40,7 +40,7 @@ export const ContactForm = () => {
 
    
 return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} className="border p-3">
         <Form.Group className="mb-3 w-75">
             <Form.Label htmlFor="email">Email Address</Form.Label>
             <Form.Control 

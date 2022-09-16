@@ -72,10 +72,10 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3">
                     <Col md={6} className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
+                        <a href="https://calendar-module.vercel.app/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/media-tile.PNG")}
+                                src={require("../images/calendar-module.PNG")}
                                 width={400}
                                 height={400}
                                 />
