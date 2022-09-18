@@ -85,7 +85,7 @@ export default function Home() {
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Portfolio Link #1
+                                    Tiny Teapot I Made
                                 </Figure.Caption>
                             </Figure>
                         </a>
