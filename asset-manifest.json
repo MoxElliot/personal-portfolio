@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.08cb542f.css",
-    "main.js": "/personal-portfolio/static/js/main.ed74a602.js",
+    "main.css": "/personal-portfolio/static/css/main.d3332fa2.css",
+    "main.js": "/personal-portfolio/static/js/main.ef57c25a.js",
+    "static/media/pano-all.jpg": "/personal-portfolio/static/media/pano-all.c14d64af29858fb0804d.jpg",
+    "static/media/me-and-wife.jpg": "/personal-portfolio/static/media/me-and-wife.76f9ad16161d07391493.jpg",
+    "static/media/teapot.jpg": "/personal-portfolio/static/media/teapot.718f70bf4f540a4a71d3.jpg",
     "static/media/kintsugi-one.jpg": "/personal-portfolio/static/media/kintsugi-one.efdda746f88bdd1da6ca.jpg",
+    "static/media/portfolio-preview.PNG": "/personal-portfolio/static/media/portfolio-preview.1f68ace51fb7b1300137.PNG",
     "static/media/kintsugi-two.jpg": "/personal-portfolio/static/media/kintsugi-two.6a96d60dc73ac4bcab43.jpg",
-    "static/media/Elliot_Erickson_Full_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Full_CV.5c3eeb2fe4489536358c.pdf",
-    "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d1532ad5f63c047a3438.png",
-    "static/media/portfolio-preview.PNG": "/personal-portfolio/static/media/portfolio-preview.cb7633bbc8361eab6301.PNG",
+    "static/media/Elliot_Erickson_Development_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Development_CV.9950b36a6c717a083c4d.pdf",
     "static/media/bike-one.jpg": "/personal-portfolio/static/media/bike-one.0ec31b0f202b5b4d0110.jpg",
     "static/media/calendar-module.PNG": "/personal-portfolio/static/media/calendar-module.722de7e3f3e23e6c5e53.PNG",
     "static/media/golden-ratio.png": "/personal-portfolio/static/media/golden-ratio.81a28051606880e85b6b.png",
     "static/media/go-one.jfif": "/personal-portfolio/static/media/go-one.ea943b48e3906a5af7c2.jfif",
     "static/media/go-two.jfif": "/personal-portfolio/static/media/go-two.a32718ff154ee2eca871.jfif",
-    "static/media/about-me-profile.PNG": "/personal-portfolio/static/media/about-me-profile.1250a9391aba1ad94a99.PNG",
     "static/media/bike-two.jfif": "/personal-portfolio/static/media/bike-two.f48ffba6f7795c83e2a1.jfif",
     "index.html": "/personal-portfolio/index.html",
-    "static/media/media-tile.PNG": "/personal-portfolio/static/media/media-tile.9dc0a4d3a765770efdbe.PNG",
-    "main.08cb542f.css.map": "/personal-portfolio/static/css/main.08cb542f.css.map",
-    "main.ed74a602.js.map": "/personal-portfolio/static/js/main.ed74a602.js.map"
+    "main.d3332fa2.css.map": "/personal-portfolio/static/css/main.d3332fa2.css.map",
+    "main.ef57c25a.js.map": "/personal-portfolio/static/js/main.ef57c25a.js.map"
   },
   "entrypoints": [
-    "static/css/main.08cb542f.css",
-    "static/js/main.ed74a602.js"
+    "static/css/main.d3332fa2.css",
+    "static/js/main.ef57c25a.js"
   ]
 }
