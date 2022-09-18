@@ -1,10 +1,9 @@
-import '../index.sass';
+
 import {
     Row, Col, Container,
     Card,  Figure 
         } from "react-bootstrap";
 import React from 'react';
-import ReactDOM from 'react-dom'
 
 export default function Portfolio() {
     return (
@@ -13,6 +12,7 @@ export default function Portfolio() {
                 <Row className="text-center">
                     <Col>
                         <h1>Portfolio Details</h1>
+                        <p>These projects are planned and developed by me. I will not include any coding excercises here. Instead, what you see are projects that interest me, for better or worse.</p>
                     </Col>
                 </Row>
                 <Row className="mt-3">
@@ -41,31 +41,26 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <Card.Text>
                                         <li>
-                                            Vix e conspectu Siculae 
+                                            Fully Responsive, Mobile First Design
                                         </li>
                                         <li>
-                                            Telluris in altum
+                                            React-Bootstrap Styling
                                         </li>
                                         <li>
-                                            Vela dabant laeti, et spumas salis 
+                                            Contact Me Form 
                                         </li>
-                                        <li>
-                                            Aere ruebant cum Iuno
-                                        </li>
-                                        <li>
-                                            Aeternum servans sub pectore volnus
-                                        </li>
+                                        
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
                                 <Card.Title>
                                     Technology Stack
                                 </Card.Title>
-                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
-                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                                 <i className="fa-brands fa-js-square fa-2x p-2"></i>
-                                <i className="fa-brands fa-sass fa-2x p-2"></i>
                                 <i className="fa-brands fa-react fa-2x p-2"></i>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png"></img>
+                                <img className="icon" src="https://img.icons8.com/color/344/mongodb.png"></img>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -80,7 +75,7 @@ export default function Portfolio() {
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Portfolio Link #2
+                                    Scheduling Calendar Module
                                 </Figure.Caption>
                             </Figure>
                         </a>
@@ -88,7 +83,7 @@ export default function Portfolio() {
                     <Col md={6}>
                         <Card>
                             <Card.Header>
-                                Mūsa, mihī causās memorā, quō nūmine laesō.
+                                This scheduling calendar is a module for a larger teacher-student online lesson portal
                             </Card.Header>
                             <Card.Body>
                                 <Card.Title>
@@ -96,19 +91,19 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <Card.Text>
                                         <li>
-                                            Vix e conspectu Siculae 
+                                            No React calendar library used, I developed this myself as a learning excercise
                                         </li>
                                         <li>
-                                            Telluris in altum
+                                            Logic allows user to navigate forward in time, accounts for leap years
                                         </li>
                                         <li>
-                                            Vela dabant laeti, et spumas salis 
+                                            User cannot navigate before the present day to prevent scheduling "past" lessons
                                         </li>
                                         <li>
-                                            Aere ruebant cum Iuno
+                                            Selecting a time slot opens a lesson detail window
                                         </li>
                                         <li>
-                                            Aeternum servans sub pectore volnus
+                                            The "Today" button brings user back to present day
                                         </li>
                                 </Card.Text>
                             </Card.Body>
@@ -116,11 +111,12 @@ export default function Portfolio() {
                                 <Card.Title>
                                     Technology Stack
                                 </Card.Title>
-                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
-                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                                 <i className="fa-brands fa-js-square fa-2x p-2"></i>
-                                <i className="fa-brands fa-sass fa-2x p-2"></i>
                                 <i className="fa-brands fa-react fa-2x p-2"></i>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png"></img>
+                                <img className="icon" src="https://img.icons8.com/color/344/nextjs.png"></img>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
+                                <i className="fa-brands fa-sass fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -130,12 +126,12 @@ export default function Portfolio() {
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/media-tile.PNG")}
+                                src={require("../images/teapot.jpg")}
                                 width={400}
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Portfolio Link #3
+                                    Tiny Teapot I Made
                                 </Figure.Caption>
                             </Figure>
                         </a>
@@ -143,7 +139,7 @@ export default function Portfolio() {
                     <Col md={6}>
                         <Card>
                             <Card.Header>
-                                Mūsa, mihī causās memorā, quō nūmine laesō.
+                                A tiny teapot I made with Kintsugi repaired top. This is a placeholder until I complete another project.
                             </Card.Header>
                             <Card.Body>
                                 <Card.Title>
@@ -151,31 +147,26 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <Card.Text>
                                         <li>
-                                            Vix e conspectu Siculae 
+                                            Adorable
                                         </li>
                                         <li>
-                                            Telluris in altum
+                                            Kintsugi repair on top
                                         </li>
                                         <li>
-                                            Vela dabant laeti, et spumas salis 
+                                            Functional 
                                         </li>
                                         <li>
-                                            Aere ruebant cum Iuno
+                                            Porcelin
                                         </li>
-                                        <li>
-                                            Aeternum servans sub pectore volnus
-                                        </li>
+                                        
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
                                 <Card.Title>
                                     Technology Stack
                                 </Card.Title>
-                                <i className="fa-brands fa-html5 fa-2x p-2"></i>
-                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
-                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
-                                <i className="fa-brands fa-sass fa-2x p-2"></i>
-                                <i className="fa-brands fa-react fa-2x p-2"></i>
+                                <h6 className="">Porcelin - White Glaze - Copper</h6>
+                          
                             </Card.Footer>
                         </Card>
                     </Col>

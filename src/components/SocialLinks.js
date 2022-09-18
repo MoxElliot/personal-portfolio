@@ -20,7 +20,7 @@ export const SocialLinks = () => {
                 </Button>  
          
                 <Button 
-                    href="discordapp.com/users/MoxElliot#8234" 
+                    href="https://discordapp.com/users/127595779035496449" 
                     target="_blank" 
                     variant="outline-secondary" 
                     className="border-0">

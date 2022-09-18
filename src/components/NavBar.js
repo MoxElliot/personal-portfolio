@@ -4,8 +4,8 @@ import { Nav, Navbar, Image, Container} from "react-bootstrap";
 
 export function NavBar() {
   return (
-    <Navbar bg="light" expand="sm">
-      <Container fluid className="mx-5">
+    <Navbar bg="light" expand="sm" className="d-flex justify-content-center">
+      <Container fluid className="navBar mx-5">
         <Nav.Link className="ms-2" as={Link} to="/" >
           <Image height={"70rem"} src={require("../images/golden-ratio.png")} alt="Logo Icon" />
         </Nav.Link> 

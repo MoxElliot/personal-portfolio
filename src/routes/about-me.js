@@ -80,20 +80,22 @@ export default function AboutMe() {
                         <p className="lead font-weight-bold">
                         I am a techno-bohemian with a wide range of interests and areas of expertise. 
                         </p>
-                        <p className="lead font-weight-bold">Always striving to know more about the world and all the ideas within is important. This pursuit brings richness and depth to one's projects and life in general.</p>
+                        <p className="lead font-weight-bold">My personal value to always strive to know more about the world has brough richness and depth to my projects and life in general.</p>
                         <p className="lead font-weight-bold">On this page you will find out more about me, about what moves me, and hopefully about why you want to work with me. </p>   
                         
                     </Col>
                     <Col md={8}>
-                        <Image src={require("../images/about-me-profile.PNG")} className="img-fluid d-none d-sm-block" alt="Portfolio Preview" />
+                        <Image src={require("../images/pano-all.jpg")} className="img-fluid d-none d-sm-block" alt="Portfolio Preview" />
                     </Col>
                 </Row>
                 <Row>
                   
-                    <Col md={8}>
-                    <Context.Provider value={{
-                        key, 
-                        setKey: key => setKey(key)}}>
+                    <Col md={8} className="d-flex justify-content-center">
+                    <Context.Provider 
+                      
+                      value={{
+                          key, 
+                          setKey: key => setKey(key)}}>
                         <HobbyTabs />
                     </Context.Provider>
                     </Col>  
@@ -108,6 +110,7 @@ export default function AboutMe() {
          
                 <Row className="w-75 text-center mx-auto mx-md-0" lg={8}>
                   <h3>My Favorite Media</h3>
+                  <p>Click image to check it out!</p>
                   { mediaImageArray.map((item) => (
                           <Col key={item.number} xs={4}>
                               <a href={item.link}  
@@ -121,7 +124,7 @@ export default function AboutMe() {
                               </a>
                           </Col>
                       ))}
-                    <p>Click image to check it out!</p>          
+                              
                 </Row>
                 <SocialLinks />
            </Container>
