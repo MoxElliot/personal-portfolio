@@ -23,7 +23,7 @@ export const HobbyTabs = () => {
                     title="Kintsugi"
                     >
                     <p className="lead">
-                    This ancient Japanese method of repairing pottery seeks not to hide the resulting imperfection, but to stregthen and adorn it. With slow-curing lacquer and a final layer of gold the work is restored to its original functionality. The result may be even more beautiful than before!
+                    This ancient Japanese method of repairing pottery seeks not to hide the resulting imperfection, but to strengthen and adorn it. The craft uses a slow-curing lacquer and a final layer of gold. The work is restored to its original functionality. The result may be even more beautiful than before!
                     </p>
                 </Tab>
                 <Tab 
@@ -31,7 +31,7 @@ export const HobbyTabs = () => {
                     title="Go"
                     >
                     <p className="lead">
-                    Go is a board game played with white and black stones laid alternately on a grid. The objective is to use your stones to surround as many interceptions/points on that grid as possible, while hindering your opponent from doing the same. It was the Holy Grail for AI research with Googles Deep Mind finally beating the world's best player in 2006.
+                    Go is a board game played with white and black stones laid alternately on a grid. The objective is to use your stones to surround as many interceptions/points on that grid as possible, while hindering your opponent from doing the same. It was the Holy Grail for AI research with Google's Deep Mind finally beating the world's best player in 2006.
                     </p>
                 </Tab>
                 <Tab 

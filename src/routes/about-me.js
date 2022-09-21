@@ -78,9 +78,9 @@ export default function AboutMe() {
                 <Row className="align-items-center">
                     <Col md={4}>
                         <p className="lead font-weight-bold">
-                        I am a techno-bohemian with a wide range of interests and areas of expertise. 
+                        Techno-bohemian with a wide range of interests and areas of expertise. 
                         </p>
-                        <p className="lead font-weight-bold">My personal value to always strive to know more about the world has brough richness and depth to my projects and life in general.</p>
+                        <p className="lead font-weight-bold">My desire to always know more about the world has brought richness and depth to my personal projects and life in general.</p>
                         <p className="lead font-weight-bold">On this page you will find out more about me, about what moves me, and hopefully about why you want to work with me. </p>   
                         
                     </Col>

@@ -15,8 +15,9 @@ export default function Portfolio() {
                         <p>These projects are planned and developed by me. I will not include any coding excercises here. Instead, what you see are projects that interest me, for better or worse.</p>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="mt-3 border p-2">
                     <Col md={6} className="text-center">
+                    <h3>Personal Portfolio</h3>
                     <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
@@ -33,7 +34,7 @@ export default function Portfolio() {
                     <Col md={6}>
                         <Card>
                             <Card.Header>
-                                Mūsa, mihī causās memorā, quō nūmine laesō.
+                                This fully responsive portfolio demonstrates my use of React, Redux, and React-Boostrap
                             </Card.Header>
                             <Card.Body>
                                 <Card.Title>
@@ -58,15 +59,16 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <i className="fa-brands fa-js-square fa-2x p-2"></i>
                                 <i className="fa-brands fa-react fa-2x p-2"></i>
-                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png"></img>
-                                <img className="icon" src="https://img.icons8.com/color/344/mongodb.png"></img>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png" alt="Redux Icon"></img>
+                                <img className="icon" src="https://img.icons8.com/color/344/mongodb.png" alt="MongoDB Icon"></img>
                                 <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="mt-3 border p-2">
                     <Col md={6} className="text-center">
+                    <h3>Scheduling Calendar Module</h3>
                         <a href="https://calendar-module.vercel.app/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
@@ -113,16 +115,17 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <i className="fa-brands fa-js-square fa-2x p-2"></i>
                                 <i className="fa-brands fa-react fa-2x p-2"></i>
-                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png"></img>
-                                <img className="icon" src="https://img.icons8.com/color/344/nextjs.png"></img>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png" alt="Redux Icon"></img>
+                                <img className="icon" src="https://img.icons8.com/color/344/nextjs.png" alt="NextJS Icon"></img>
                                 <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                                 <i className="fa-brands fa-sass fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="mt-3 border p-2">
                     <Col md={6} className="text-center">
+                    <h3>Tiny Teapot</h3>
                         <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
