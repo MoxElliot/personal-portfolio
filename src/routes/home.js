@@ -71,7 +71,7 @@ export default function Home() {
                     </Col>
                     <Col>
                         <p>
-                            I build this calendar from scratch utilizing JavaScript, React, Redux, and Next.js. It is one piece of a larger web portal project for teachers and students.
+                            I built this calendar from scratch utilizing JavaScript, React, Redux, and Next.js. It is one piece of a larger web portal project for teachers and students.
                         </p>
                     </Col>
                 </Row>
