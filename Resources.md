@@ -35,3 +35,15 @@ https://medium.com/@sergio13prez/connecting-to-mongodb-atlas-d1381f184369
 connection string: mongodb+srv://eric0952:Eric5042@mongoatlascluster.5nkuq.mongodb.net/?retryWrites=true&w=majority
 
 node server.js to start MongoDB
+
+*** Youtubes about MongoDB AWS EC2 ***
+https://www.youtube.com/watch?v=7vf210p2tJg
+https://www.youtube.com/watch?v=HtWgb_vbyvY <-- very good, has process flow he follows>
+
+
+*** linux command to ssh into ec2 server ***
+ssh -i "us-west-portfolio-linux.pem" ec2-user@ec2-52-26-57-128.us-west-2.compute.amazonaws.com
+
+*** install nodejs and nginx on amazon linux ***
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+https://devcoops.com/install-nginx-on-aws-ec2-amazon-linux/
