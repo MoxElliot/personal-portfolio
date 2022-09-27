@@ -43,6 +43,7 @@ return (
     <Form 
         //onSubmit={handleSubmit} 
         className="border p-3"
+        target="_self"
         action="https://formkeep.com/f/5f7d494d8d88"
         accept-charset="UTF-8"
         enctype="multipart/form-data"
