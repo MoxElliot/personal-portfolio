@@ -8,15 +8,15 @@ export const ContactForm = () => {
         message:"",
     });
  
-    const handleChange = (value) => {
-        return setform((prev) => {
-            return {...prev, ...value};
-        });
-    }
+    // const handleChange = (value) => {
+    //     return setform((prev) => {
+    //         return {...prev, ...value};
+    //     });
+    // }
 
-    const submitAlert = () => {
-        alert("Thank you for your message!")
-    }
+    // const submitAlert = () => {
+    //     alert("Thank you for your message!")
+    // }
 
     // async function handleSubmit(e){
     //     e.preventDefault();
