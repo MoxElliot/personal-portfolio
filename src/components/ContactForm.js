@@ -23,7 +23,7 @@ export const ContactForm = () => {
 
         const newContact = { ...form };
 
-        await fetch("https://172.31.21.148:5000/record/add", {
+        await fetch("http://localhost:5000/record/add", {
             method: "POST",
             headers: {
                 "Content-Type" : "application/json",
