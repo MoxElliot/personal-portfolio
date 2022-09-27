@@ -1,4 +1,4 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 
 
@@ -43,7 +43,7 @@ return (
     <Form 
         //onSubmit={handleSubmit} 
         className="border p-3"
-        action="https:fomrkeep.com/f/5f7d494d8d88"
+        action="https://formkeep.com/f/5f7d494d8d88"
         accept-charset="UTF-8"
         enctype="multipart/form-data"
         method="POST"
