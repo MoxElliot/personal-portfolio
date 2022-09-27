@@ -3,10 +3,10 @@ import { Button, Form } from "react-bootstrap";
 
 
 export const ContactForm = () => {
-    const [form, setform] = useState({
-        email: "",
-        message:"",
-    });
+    // const [form, setform] = useState({
+    //     email: "",
+    //     message:"",
+    // });
  
     // const handleChange = (value) => {
     //     return setform((prev) => {
@@ -54,7 +54,7 @@ return (
                 type="email" 
                 id="email" 
                 nameplaceholder="sample@company.com" 
-                value={form.email}
+                //value={form.email}
                // onChange={(e) => handleChange({ email: e.target.value })}
             />
         </Form.Group>
@@ -65,7 +65,7 @@ return (
                 id="message" 
                 rows={3} 
                 placeholder="Your message here..."
-                value={form.message}
+                //value={form.message}
                // onChange={(e) => handleChange({ message: e.target.value })}    
             />
         </Form.Group>
