@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.d3332fa2.css",
-    "main.js": "/personal-portfolio/static/js/main.a66f56fc.js",
+    "main.js": "/personal-portfolio/static/js/main.ec1be1b8.js",
     "static/media/pano-all.jpg": "/personal-portfolio/static/media/pano-all.c14d64af29858fb0804d.jpg",
     "static/media/me-and-wife.jpg": "/personal-portfolio/static/media/me-and-wife.76f9ad16161d07391493.jpg",
     "static/media/teapot.jpg": "/personal-portfolio/static/media/teapot.718f70bf4f540a4a71d3.jpg",
+    "static/media/Elliot_Erickson_Development_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Development_CV.f59ebc051121b7c7a0fb.pdf",
     "static/media/kintsugi-one.jpg": "/personal-portfolio/static/media/kintsugi-one.efdda746f88bdd1da6ca.jpg",
     "static/media/portfolio-preview.PNG": "/personal-portfolio/static/media/portfolio-preview.1f68ace51fb7b1300137.PNG",
     "static/media/kintsugi-two.jpg": "/personal-portfolio/static/media/kintsugi-two.6a96d60dc73ac4bcab43.jpg",
-    "static/media/Elliot_Erickson_Development_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Development_CV.64f86a9d3092667d0d60.pdf",
     "static/media/bike-one.jpg": "/personal-portfolio/static/media/bike-one.0ec31b0f202b5b4d0110.jpg",
     "static/media/calendar-module.PNG": "/personal-portfolio/static/media/calendar-module.722de7e3f3e23e6c5e53.PNG",
     "static/media/golden-ratio.png": "/personal-portfolio/static/media/golden-ratio.81a28051606880e85b6b.png",
@@ -17,10 +17,10 @@
     "static/media/bike-two.jfif": "/personal-portfolio/static/media/bike-two.f48ffba6f7795c83e2a1.jfif",
     "index.html": "/personal-portfolio/index.html",
     "main.d3332fa2.css.map": "/personal-portfolio/static/css/main.d3332fa2.css.map",
-    "main.a66f56fc.js.map": "/personal-portfolio/static/js/main.a66f56fc.js.map"
+    "main.ec1be1b8.js.map": "/personal-portfolio/static/js/main.ec1be1b8.js.map"
   },
   "entrypoints": [
     "static/css/main.d3332fa2.css",
-    "static/js/main.a66f56fc.js"
+    "static/js/main.ec1be1b8.js"
   ]
 }
