@@ -125,16 +125,16 @@ export default function Portfolio() {
                 </Row>
                 <Row className="mt-3 border p-2">
                     <Col md={6} className="text-center">
-                    <h3>Tiny Teapot</h3>
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
+                    <h3>Lesson Creator Module</h3>
+                        <a href="https://lesson-creation-module.vercel.app/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/teapot.jpg")}
+                                src={require("../images/lesson-creation-module.PNG")}
                                 width={400}
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Tiny Teapot I Made
+                                    Lesson Creator Module
                                 </Figure.Caption>
                             </Figure>
                         </a>
@@ -142,7 +142,7 @@ export default function Portfolio() {
                     <Col md={6}>
                         <Card>
                             <Card.Header>
-                                A tiny teapot I made with Kintsugi repaired top. This is a placeholder until I complete another project.
+                                This module allows teachers to create, edit, and cancel lessons for students. It is for a larger teacher-student online lesson portal
                             </Card.Header>
                             <Card.Body>
                                 <Card.Title>
@@ -150,26 +150,32 @@ export default function Portfolio() {
                                 </Card.Title>
                                 <Card.Text>
                                         <li>
-                                            Adorable
+                                            User can create, cancel, and edit lessons from a control form. New and modified lessons populate on the included lesson table
                                         </li>
                                         <li>
-                                            Kintsugi repair on top
+                                            User can filter lessons in lesson table by status
                                         </li>
                                         <li>
-                                            Functional 
+                                            User can include file attachments for each lesson. Attachments can be added or removed within edit funcionality
                                         </li>
                                         <li>
-                                            Porcelin
+                                            User can include a web link for online lesson location such as Zoom or Discord
                                         </li>
-                                        
+                                        <li>
+                                            No fields are required for easy of use in testing, would be modified in live app
+                                        </li>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
                                 <Card.Title>
                                     Technology Stack
                                 </Card.Title>
-                                <h6 className="">Porcelin - White Glaze - Copper</h6>
-                          
+                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
+                                <i className="fa-brands fa-react fa-2x p-2"></i>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png" alt="Redux Icon"></img>
+                                <img className="icon" src="https://img.icons8.com/color/344/nextjs.png" alt="NextJS Icon"></img>
+                                <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
+                                <i className="fa-brands fa-sass fa-2x p-2"></i>
                             </Card.Footer>
                         </Card>
                     </Col>

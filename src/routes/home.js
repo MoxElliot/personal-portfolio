@@ -35,7 +35,7 @@ export default function Home() {
                 </Row>
                 <Row className="mt-1">
                     <Col className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
+                        {/* <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer"> */}
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/portfolio-preview.PNG")}
@@ -46,17 +46,17 @@ export default function Home() {
                                     My Personal Portfolio Site
                                 </Figure.Caption>
                             </Figure>
-                        </a>
+                        {/* </a> */}
                     </Col>
                     <Col>
                         <p>
-                        My personal portfolio utilizes JavaScript, React, and React-Router with a simple MongoDB back-end for the contact form.
+                        My personal portfolio utilizes JavaScript, React, and React-Router
                         </p>
                     </Col>
                 </Row>
                 <Row className="mt-1">
                     <Col className="text-center">
-                        <a href="https://moxelliot.github.io/personal-portfolio/" target="_blank" rel="noreferrer">
+                        <a href="https://calendar-module.vercel.app/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
                                 src={require("../images/calendar-module.PNG")}
@@ -77,22 +77,22 @@ export default function Home() {
                 </Row>
                 <Row className="mt-1">
                     <Col className="text-center">
-                        <a href="https://calendar-module.vercel.app/" target="_blank" rel="noreferrer">
+                        <a href="https://lesson-creation-module.vercel.app/" target="_blank" rel="noreferrer">
                             <Figure>
                                 <Figure.Image 
-                                src={require("../images/teapot.jpg")}
+                                src={require("../images/lesson-creation-module.PNG")}
                                 width={400}
                                 height={400}
                                 />
                                 <Figure.Caption>
-                                    Tiny Teapot I Made
+                                    Online Lesson Creator Module
                                 </Figure.Caption>
                             </Figure>
                         </a>
                     </Col>
                     <Col>
                         <p>
-                            This is a tiny teapot I made. It's a placeholder until I complete another portfolio project. The world has enough drumMachine.js.
+                            This is a module for a larger web portal project for teachers and students. It allows a teacher to create, edit, and cancel available lesson times for students to request. It utilizes JavaScript, React, Redux, and Next.js.
                         </p>
                     </Col>
                 </Row>
