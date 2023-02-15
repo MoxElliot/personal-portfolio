@@ -34,7 +34,7 @@ export default function Portfolio() {
                     <Col md={6}>
                         <Card>
                             <Card.Header>
-                                This fully responsive portfolio demonstrates my use of React, Redux, and React-Boostrap
+                                This fully responsive portfolio demonstrates my use of React, Redux, and React-Bootstrap
                             </Card.Header>
                             <Card.Body>
                                 <Card.Title>
@@ -176,6 +176,60 @@ export default function Portfolio() {
                                 <img className="icon" src="https://img.icons8.com/color/344/nextjs.png" alt="NextJS Icon"></img>
                                 <i className="fa-brands fa-bootstrap fa-2x p-2"></i>
                                 <i className="fa-brands fa-sass fa-2x p-2"></i>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className="mt-3 border p-2">
+                    <Col md={6} className="text-center">
+                    <h3>Mobile First Children's Flashcard Game</h3>
+                        <a href="https://flashy.onrender.com/" target="_blank" rel="noreferrer">
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/flashy-game.png")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Children's Flashcard Game
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col md={6}>
+                        <Card>
+                            <Card.Header>
+                                This project is an online game for children, utilizing flashcards, to teach basic letters, numbers, shapes, and animals. It utilizes React, React-Router, Redux, Tailwind, API Integration, and Firebase
+                            </Card.Header>
+                            <Card.Body>
+                                <Card.Title>
+                                    Features
+                                </Card.Title>
+                                <Card.Text>
+                                        <li>
+                                            Developed with the Chingu Community on a team of four. We followed an Agile development methodology and GitHub during the six, week-long, sprints. My contribution was as project manager and to develop the game UI and functionality. I also acted as a mentor for a second Chingu team
+                                        </li>
+                                        <li>
+                                            Features multiple-game modes, success and failure graphics, scoring
+                                        </li>
+                                        <li>
+                                            User sign-up and registration validation utilizing Firebase
+                                        </li>
+                                        <li>
+                                            Utilized both team generated and repurposed images integrating the Pixabay API
+                                        </li>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="text-center">
+                                <Card.Title>
+                                    Technology Stack
+                                </Card.Title>
+                                <i className="fa-brands fa-js-square fa-2x p-2"></i>
+                                <i className="fa-brands fa-react fa-2x p-2"></i>
+                                <img className="icon" src="https://img.icons8.com/ios-filled/50/000000/redux.png" alt="Redux Icon"></img>
+                                <i className="fa-brands fa-github fa-2x p-2"></i>
+                                <i className="fa-brands fa-figma fa-2x p-2"></i>
+
                             </Card.Footer>
                         </Card>
                     </Col>

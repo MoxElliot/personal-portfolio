@@ -96,6 +96,27 @@ export default function Home() {
                         </p>
                     </Col>
                 </Row>
+                <Row className="mt-1">
+                    <Col className="text-center">
+                        <a href="https://flashy.onrender.com/" target="_blank" rel="noreferrer">
+                            <Figure>
+                                <Figure.Image 
+                                src={require("../images/flashy-game.png")}
+                                width={400}
+                                height={400}
+                                />
+                                <Figure.Caption>
+                                    Mobile First Children's Flashcard Game
+                                </Figure.Caption>
+                            </Figure>
+                        </a>
+                    </Col>
+                    <Col>
+                        <p>
+                            This project is an online game for children, utilizing flashcards, to teach basic letters, numbers, shapes, and animals. It utilizes React, React-Router, Redux, Tailwind, API Integration, and Firebase.
+                        </p>
+                    </Col>
+                </Row>
             </Container>
                     </Col>
                     <Col className="m-1 d-none d-sm-block">
