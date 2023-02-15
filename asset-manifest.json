@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.d3332fa2.css",
-    "main.js": "/personal-portfolio/static/js/main.297e5104.js",
+    "main.js": "/personal-portfolio/static/js/main.b13ab012.js",
     "static/media/pano-all.jpg": "/personal-portfolio/static/media/pano-all.c14d64af29858fb0804d.jpg",
     "static/media/kintsugi-one.jpg": "/personal-portfolio/static/media/kintsugi-one.efdda746f88bdd1da6ca.jpg",
     "static/media/kintsugi-two.jpg": "/personal-portfolio/static/media/kintsugi-two.6a96d60dc73ac4bcab43.jpg",
-    "static/media/Elliot_Erickson_Development_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Development_CV.be7c7dd626d61307d3ef.pdf",
+    "static/media/Elliot_Erickson_Development_CV.pdf": "/personal-portfolio/static/media/Elliot_Erickson_Development_CV.32fc60fa60ac50be5156.pdf",
     "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d1532ad5f63c047a3438.png",
     "static/media/bike-one.jpg": "/personal-portfolio/static/media/bike-one.0ec31b0f202b5b4d0110.jpg",
     "static/media/flashy-game.png": "/personal-portfolio/static/media/flashy-game.d6f46fb698763e8cd629.png",
@@ -18,10 +18,10 @@
     "static/media/bike-two.jfif": "/personal-portfolio/static/media/bike-two.f48ffba6f7795c83e2a1.jfif",
     "index.html": "/personal-portfolio/index.html",
     "main.d3332fa2.css.map": "/personal-portfolio/static/css/main.d3332fa2.css.map",
-    "main.297e5104.js.map": "/personal-portfolio/static/js/main.297e5104.js.map"
+    "main.b13ab012.js.map": "/personal-portfolio/static/js/main.b13ab012.js.map"
   },
   "entrypoints": [
     "static/css/main.d3332fa2.css",
-    "static/js/main.297e5104.js"
+    "static/js/main.b13ab012.js"
   ]
 }
