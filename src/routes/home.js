@@ -120,7 +120,7 @@ export default function Home() {
             </Container>
                     </Col>
                     <Col className="m-1 d-none d-sm-block">
-                        <Image height={"600rem"} src={require("../images/me-and-wife.jpg")} fluid alt="Profile Picture" />
+                        <Image height={"600rem"} src={require("../images/profile-pic.png")} fluid alt="Profile Picture" />
                     </Col>
                     
                 </Row>
