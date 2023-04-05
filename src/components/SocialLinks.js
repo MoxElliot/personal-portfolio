@@ -44,7 +44,7 @@ export const SocialLinks = () => {
                 </Button> 
           
                 <Button 
-                    href="https://www.linkedin.com/in/elliot-e-7a786822a/" 
+                    href="https://www.linkedin.com/in/elliot-erickson-7a786822a/" 
                     target="_blank" 
                     variant="outline-secondary" 
                     className="border-0">
