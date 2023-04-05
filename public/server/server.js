@@ -18,3 +18,5 @@ app.listen(port, () => {
   });
   console.log(`Server is running on port: ${port}`);
 });
+
+//https://www.stackhawk.com/blog/nodejs-cors-guide-what-it-is-and-how-to-enable-it/

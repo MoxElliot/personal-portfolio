@@ -7,7 +7,6 @@ import React from 'react';
 import Resume from '../images/Elliot_Erickson_Development_CV.pdf'
 import { ContactForm } from '../components/ContactForm'
 
-
 export default function Contact() {
     return (
         <Container>

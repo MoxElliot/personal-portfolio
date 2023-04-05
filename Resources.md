@@ -1,16 +1,27 @@
+**Deploying a Node.js application with DynamoDB to Elastic Beanstalk**
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html?p=gsrc&c=ho_dnwa
+
+**AWS S3 and Cloudfront file hosting**
+https://medium.com/@fitzgeraldmr6618/serving-up-an-image-using-aws-cloudfront-and-s3-bb5ce896e42f
+
+**Dyanamic Webhosting AWS**
+https://apporbit.com/how-to-host-a-dynamic-website-on-aws/
+
 https://reactrouter.com/docs/en/v6/getting-started/tutorial#tutorial
 
-Used this to set up useState to store the active tab (via activeKey prop) on the HobbyTabs.js 
+**Used this to set up useState to store the active tab (via activeKey prop) on the HobbyTabs.js** 
 https://react-bootstrap.github.io/components/tabs/ <_ Controlled Tab Section
 
 How to use useEffect to console.log active state https://stackoverflow.com/questions/54867616/console-log-the-state-after-using-usestate-doesnt-return-the-current-value
 
 
-Create context explaination and example https://stackoverflow.com/questions/61836485/passing-data-to-sibling-components-with-react-hooks
+**Create context explaination and example**
+ https://stackoverflow.com/questions/61836485/passing-data-to-sibling-components-with-react-hooks
 
 https://codesandbox.io/s/react-context-api-example-0ghhy
 
- Used Controlled Carousel guide from https://react-bootstrap.github.io/components/carousel/
+**Used Controlled Carousel guide from**
+ https://react-bootstrap.github.io/components/carousel/
 Read https://w3collective.com/tab-component-react/ for tab active index
 
 From: https://github.com/rafgraph/spa-github-pages
@@ -27,8 +38,8 @@ Freecodecamp has a different solution to using react router on github pages: htt
 
 Good bootstrap 5 docs : https://mdbootstrap.com/docs/b5/react/layout/grid/
 
-MERN Setup (MongoDB form submission) https://www.mongodb.com/languages/mern-stack-tutorial
-https://www.mongodb.com/languages/mern-stack-tutorial
+**MERN Setup (MongoDB form submission)**
+ https://www.mongodb.com/languages/mern-stack-tutorial
 
 https://medium.com/@sergio13prez/connecting-to-mongodb-atlas-d1381f184369
 

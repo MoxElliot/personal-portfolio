@@ -1,4 +1,3 @@
-
 import { Carousel, Col, Image } from 'react-bootstrap';
 import { Context } from "../routes/about-me"
 import {  useContext } from "react";
@@ -37,7 +36,7 @@ export const ImageCarousel = () => {
             <Carousel.Item >
                 <Image
                 className="d-block w-100"
-                src={require("../images/bike-one.jpg")}
+                src={require("https://d3ee098cruiy0.cloudfront.net/BWDrive.jpg")}
                 alt="Third slide"
                 />
             </Carousel.Item>
